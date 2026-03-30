@@ -32,8 +32,8 @@ A simple and intuitive interface where users input:
 3. Set your desired attendance percentage (e.g., 75%)
 4. The app calculates:
 
-   * Your current attendance
-   * Classes you can miss OR need to attend
+  * Your current attendance
+  * Classes you can miss OR need to attend
 
 
 # Use Cases
@@ -44,10 +44,10 @@ A simple and intuitive interface where users input:
 
 # Future Improvements
 
-* 📊 Graphical attendance tracking
-* 📱 Mobile app version
-* 💾 Save attendance data locally
-* 🌐 Deploy as a live web app
+*  Graphical attendance tracking
+*  Mobile app version
+*  Save attendance data locally
+* Deploy as a live web app
 
 
 
