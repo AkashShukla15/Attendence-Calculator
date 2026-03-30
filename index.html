@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Attendance Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Attendance Calculator</h1>
+    
+    <h2>Current Attendance</h2>
+    <input type="number" id="totalLectures" placeholder="Total lectures held" />
+    <input type="number" id="lecturesAbsent" placeholder="Total lectures missed" />
+    <button onclick="calculateCurrentAttendance()">Calculate</button>
+    <p id="currentResult"></p>
+
+    <h2>Future Attendance</h2>
+    <input type="number" id="lecturesPerDay" placeholder="Lectures per day" />
+    <input type="number" id="futureDays" placeholder="Days you will skip" />
+    <button onclick="calculateFutureAttendance()">Calculate Future</button>
+    <p id="futureResult"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
